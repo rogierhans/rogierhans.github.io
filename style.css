@@ -3,7 +3,8 @@ body {
     margin-top: 50px;
 }
 
-header {
+#header {
+    border: 1px solid #1C6EA4;
     display: flex;
     position: fixed;
     top: 0;
@@ -11,30 +12,36 @@ header {
     right: 0;
     height: 50px;
     line-height: 50px;
-    background-color: #eee;
+    background-color: #eee;   
 }
-
-header * {
+#name {
+    border: 1px solid #1C6EA4;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+    
+#header * {
     display: inline;
-    height: 50px;
+    height: 500px;
 }
 
-header ul {
+.link {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
-header li {
-    margin-left: 20px;
-}
 
-section {
-    height: 100vh;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+
 
 
 footer {
